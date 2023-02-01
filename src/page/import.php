@@ -6,3 +6,6 @@ error_reporting(E_ERROR | E_PARSE);
 
 $parseBook = new ParseBook();
 $parseBook->addToDB();
+
+header('Location: /');
+exit();

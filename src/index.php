@@ -16,6 +16,9 @@ $authorsParam = $_GET['authors'] ?? [];
     <title>Litmir</title>
 </head>
 <body>
+<div class="parser">
+    <a href="/page/import.php">Запустить парсер</a>
+</div>
 <form method="get" class="ajax_form">
     <input type="text" name="search" placeholder="Название книги" value="<?= $searchParam; ?>">
     <button type="submit"></button>
